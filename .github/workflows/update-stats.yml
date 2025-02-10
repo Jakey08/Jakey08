@@ -16,7 +16,7 @@ jobs:
       - name: GitHub Readme Stats Force Update
         uses: wei/curl@master
         with:
-          args: https://github-readme-stats.vercel.app/api?username=Jakey08&show_icons=true&theme=ambient_gradient&count_private=true&rank_icon=github
+          args: https://github-readme-stats-clone-olive.vercel.app/api?username=Jakey08&show_icons=true&theme=ambient_gradient&count_private=true&rank_icon=github
 
       - name: Commit and Push
         run: |
